@@ -6,3 +6,11 @@ terraform {
    key = "githubactions/patro-terraform.tfstate"   
  }
 }
+
+provider "azurerm" {
+    features {
+      
+    }
+  
+}
+
